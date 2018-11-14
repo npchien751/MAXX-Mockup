@@ -1,0 +1,87 @@
+
+/* Body formatting*/
+html, body {
+	font-family: "Helvetica Neue"; /* Proprietary font*/
+	font-color: #3D3D3D;
+	width: 100%
+	height: 100%;
+	margin: 0px;
+	border: 0px;
+	padding: 0px;
+	overflow-x: hidden;
+}
+
+/* Header formatting */
+header {
+	padding-top: 10px;
+	font-size: 2.33em;
+}
+
+#company-logo {
+	height: 100px;
+	width: auto;
+}
+header .row div {
+	padding-top: 20px;
+}
+
+#head-line1 {
+	font-weight: bold;
+	padding-top: 10px;
+	margin-bottom: 0px;
+}
+
+/* Jumbotron formatting */
+.jumbotron {
+	background-image: url(hero1.jpg);
+	background-position: center;
+	background-size: cover;
+	height: 50vh;
+	align-content: center;
+}
+
+/* Portfolio */
+.row {
+	text-align: center;
+}
+
+.row h1 {
+	padding-bottom: 15px;
+	font-weight: bold;
+	font-size: 2.33em;
+}
+
+.portfolio-head {
+	font-size: 2em;
+	border-style: solid;
+	border-color: #0D4B6E;
+	border-width: 2px 0px 0px 0px;
+	margin-bottom: -10px;
+}
+
+.portfolio-site{
+	font-family: 'Baskerville'; /* Could not find open-source version */ 
+	font-style: italic;
+	font-size: 2em;
+	color: #BB1F25;
+	border-style: solid;
+	border-color: #0D4B6E;
+	border-width: 0px 0px 6px 0px;
+	margin-top: -10px;
+}
+
+.company-photo {
+	width: 100%;
+	height: 200px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+/* Footer */
+footer {
+	background-color: #3D3D3D;
+	color: white;
+	height: 120px;
+	padding: 55px 0;
+	margin-top: 20px;
+} 
